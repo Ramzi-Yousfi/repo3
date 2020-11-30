@@ -1,0 +1,83 @@
+footer{
+    background-color: rgb(27, 189, 230);
+    padding: 20px 0 0 0 ;
+    margin-top: 50px  ;
+    margin-bottom: 20px;
+}
+.colone{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+    h1{
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        text-align: center;
+    }}
+@media #{$medium,$small}{
+    .colone{ display: flex;
+    justify-content:start;
+    flex-direction: row;
+    
+  
+    h1{display: flex;
+        align-items: center;
+    }
+}}
+
+
+
+.newsletter {
+    background-image: url(/images/elipse.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 40px 0 20px 0 ;
+    padding: 30px 0 20px 0;
+   
+
+    label{
+        margin: 0 0 10px 10px;
+        font-weight: 700;
+    }
+ }
+ .news {
+    width: 70%;
+    height: 40px;
+    margin: 10px 15% 10PX 15%;
+    border-radius: 40px;
+    border: solid black;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    ::placeholder{
+        color: rgb(27, 26, 26);
+        opacity: 1;
+        }
+    input{
+        width: 80%;
+        height: 40px;
+        margin: 0 0 0 5px;
+       size: 26px;
+        background: none;
+        border: none;
+        outline: none;
+        
+        
+         }
+         a{
+             text-decoration: none;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-right: 10px;
+             width:80px;
+             height: 40px;
+             
+         }
+ }
+ .cgu {
+    margin:20px 0 ;
+    display: flex;
+    justify-content: center;
+ }
